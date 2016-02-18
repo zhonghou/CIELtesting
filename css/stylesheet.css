@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+
+.colourSchemeIntro {
+    /*margin-top: 12px;
+    margin-bottom: 10px;*/
+    padding: 50px 80px;
+}
+.colourSchemeIntroHeader{
+    display: block;
+    color: #1d3c83;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.colourSchemeIntroText {
+    font-size: 0.85em;
+    display: block;
+    /*margin-top: 5px;
+    line-height: 15px;*/
+}
+
+#droppableWrap {
+    /*clear:both;*/
+    padding: 10px 80px;
+}
+.droppable {
+    width: 20px;
+    height: 20px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+    margin-bottom:20px;
+}
+
+#swatchesWrap {
+    float:left;
+    padding: 10px 200px;
+    /*width: 368px;
+    height: 120px;*/
+}
+.draggable {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.colourSchemeButtonWrap {
+    width: 100px;
+    height: 32px;
+    /*padding: 10px 20px;*/
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+#green {
+    background-color:#008800;
+}
+
+#black {
+    background-color:#000000;
+}
