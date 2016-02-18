@@ -1,5 +1,5 @@
 $(function () {
-    $.getJSON("json/answer.json", function (data) {
+    $.getJSON("json/colourscheme.json", function (data) {
         $(".colourSchemeIntroHeader").append(data.colourSchemeIntroHeader);
         $(".colourSchemeIntroText").append(data.colourSchemeIntroText);
     });
