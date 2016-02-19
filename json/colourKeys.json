@@ -2,8 +2,8 @@
 	"questions":[
 		{
 			"question":"1",
-			"colourSchemeIntroHeader":"Primary",
-			"colourSchemeIntroText":"A pure hue that cannot be created by mixing other hues.",
+			"colourKeysIntroHeader":"Tropical Fruits",
+			"colourKeysIntroText":"Colour Keys text.",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -12,6 +12,10 @@
 				"#000000"
 			],
 			"answers":[
+				"#000000",
+				"#000000",
+				"#000000",
+				"#000000",
 				"#000000",
 				"#000000",
 				"#000000"
@@ -19,8 +23,8 @@
 		},
 		{
 			"question":"2",
-			"colourSchemeIntroHeader":"header2",
-			"colourSchemeIntroText":"text2",
+			"colourKeysIntroHeader":"header2",
+			"colourKeysIntroText":"text2",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -29,6 +33,10 @@
 				"#000000"
 			],
 			"answers":[
+				"#000000",
+				"#000000",
+				"#000000",
+				"#000000",
 				"#000000",
 				"#000000",
 				"#000000"
@@ -36,8 +44,8 @@
 		},
 		{
 			"question":"3",
-			"colourSchemeIntroHeader":"header3",
-			"colourSchemeIntroText":"text3",
+			"colourKeysIntroHeader":"header3",
+			"colourKeysIntroText":"text3",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -46,6 +54,10 @@
 				"#000000"
 			],
 			"answers":[
+				"#000000",
+				"#000000",
+				"#000000",
+				"#000000",
 				"#000000",
 				"#000000",
 				"#000000"
@@ -53,8 +65,8 @@
 		},
 		{
 			"question":"4",
-			"colourSchemeIntroHeader":"header4",
-			"colourSchemeIntroText":"text4",
+			"colourKeysIntroHeader":"header4",
+			"colourKeysIntroText":"text4",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -63,6 +75,10 @@
 				"#000000"
 			],
 			"answers":[
+				"#000000",
+				"#000000",
+				"#000000",
+				"#000000",
 				"#000000",
 				"#000000",
 				"#000000"
@@ -70,8 +86,8 @@
 		},
 		{
 			"question":"5",
-			"colourSchemeIntroHeader":"header5",
-			"colourSchemeIntroText":"text5",
+			"colourKeysIntroHeader":"header5",
+			"colourKeysIntroText":"text5",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -80,6 +96,10 @@
 				"#000000"
 			],
 			"answers":[
+				"#000000",
+				"#000000",
+				"#000000",
+				"#000000",
 				"#000000",
 				"#000000",
 				"#000000"
