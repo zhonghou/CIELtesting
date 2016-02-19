@@ -1,7 +1,19 @@
 $(function () {
-    $.getJSON("json/colourscheme.json", function (data) {
-        $(".colourSchemeIntroHeader").append(data.colourSchemeIntroHeader);
-        $(".colourSchemeIntroText").append(data.colourSchemeIntroText);
+    var dataList;
+    $.getJSON("json/colourscheme.json", function (dataList) {
+        //for now only load question 1
+        $(".colourSchemeCounter").append(dataList.questions[0].question + " / " + dataList.questions.length);
+        $(".colourSchemeIntroHeader").append(dataList.questions[0].colourSchemeIntroHeader);
+        $(".colourSchemeIntroText").append(dataList.questions[0].colourSchemeIntroText);
+
+        for (var i = 0; i < dataList.questions[0].swatches.length; i++) {
+            $("#swatchesWrap").append("<div id=\"" + i + "\"></div>");
+            $("#" + i).addClass('draggable');
+            $("#" + i).addClass('ui-widget-content');
+            $("#" + i).addClass('ui-draggable');
+            $("#" + i).addClass('ui-draggable-handle');
+            $("#" + i).css("background-color", dataList.questions[0].swatches[i]);
+        }
     });
 
     $(".draggable").draggable({
