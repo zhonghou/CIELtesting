@@ -9,6 +9,7 @@
 				"#0000FF",
 				"#E2BE22",
 				"#008800",
+				"#00FF00",
 				"#000000"
 			],
 			"answers":[
@@ -26,6 +27,7 @@
 				"#0000FF",
 				"#E2BE22",
 				"#008800",
+				"#00FF00",
 				"#000000"
 			],
 			"answers":[
@@ -43,6 +45,7 @@
 				"#0000FF",
 				"#E2BE22",
 				"#008800",
+				"#00FF00",
 				"#000000"
 			],
 			"answers":[
@@ -60,6 +63,7 @@
 				"#0000FF",
 				"#E2BE22",
 				"#008800",
+				"#00FF00",
 				"#000000"
 			],
 			"answers":[
@@ -77,6 +81,97 @@
 				"#0000FF",
 				"#E2BE22",
 				"#008800",
+				"#00FF00",
+				"#000000"
+			],
+			"answers":[
+				"#000000",
+				"#000000",
+				"#000000"
+			]
+		},
+		{
+			"question":"6",
+			"colourSchemeIntroHeader":"header6",
+			"colourSchemeIntroText":"text6",
+			"swatches":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800",
+				"#00FF00",
+				"#000000"
+			],
+			"answers":[
+				"#000000",
+				"#000000",
+				"#000000"
+			]
+		},
+		{
+			"question":"7",
+			"colourSchemeIntroHeader":"header7",
+			"colourSchemeIntroText":"text7",
+			"swatches":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800",
+				"#00FF00",
+				"#000000"
+			],
+			"answers":[
+				"#000000",
+				"#000000",
+				"#000000"
+			]
+		},
+		{
+			"question":"8",
+			"colourSchemeIntroHeader":"header8",
+			"colourSchemeIntroText":"text8",
+			"swatches":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800",
+				"#00FF00",
+				"#000000"
+			],
+			"answers":[
+				"#000000",
+				"#000000",
+				"#000000"
+			]
+		},
+		{
+			"question":"9",
+			"colourSchemeIntroHeader":"header9",
+			"colourSchemeIntroText":"text9",
+			"swatches":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800",
+				"#00FF00",
+				"#000000"
+			],
+			"answers":[
+				"#000000",
+				"#000000",
+				"#000000"
+			]
+		},
+		{
+			"question":"10",
+			"colourSchemeIntroHeader":"header10",
+			"colourSchemeIntroText":"text10",
+			"swatches":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800",
+				"#00FF00",
 				"#000000"
 			],
 			"answers":[
