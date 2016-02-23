@@ -2,8 +2,8 @@
 	"questions":[
 		{
 			"question":"1",
-			"colourSchemeIntroHeader":"Primary",
-			"colourSchemeIntroText":"A pure hue that cannot be created by mixing other hues.",
+			"IntroHeader":"Primary",
+			"IntroText":"A pure hue that cannot be created by mixing other hues.",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -13,15 +13,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"2",
-			"colourSchemeIntroHeader":"header2",
-			"colourSchemeIntroText":"text2",
+			"IntroHeader":"header2",
+			"IntroText":"text2",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -31,15 +31,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"3",
-			"colourSchemeIntroHeader":"header3",
-			"colourSchemeIntroText":"text3",
+			"IntroHeader":"header3",
+			"IntroText":"text3",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -49,15 +49,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"4",
-			"colourSchemeIntroHeader":"header4",
-			"colourSchemeIntroText":"text4",
+			"IntroHeader":"header4",
+			"IntroText":"text4",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -67,15 +67,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"5",
-			"colourSchemeIntroHeader":"header5",
-			"colourSchemeIntroText":"text5",
+			"IntroHeader":"header5",
+			"IntroText":"text5",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -85,15 +85,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"6",
-			"colourSchemeIntroHeader":"header6",
-			"colourSchemeIntroText":"text6",
+			"IntroHeader":"header6",
+			"IntroText":"text6",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -103,15 +103,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"7",
-			"colourSchemeIntroHeader":"header7",
-			"colourSchemeIntroText":"text7",
+			"IntroHeader":"header7",
+			"IntroText":"text7",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -121,15 +121,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"8",
-			"colourSchemeIntroHeader":"header8",
-			"colourSchemeIntroText":"text8",
+			"IntroHeader":"header8",
+			"IntroText":"text8",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -139,15 +139,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"9",
-			"colourSchemeIntroHeader":"header9",
-			"colourSchemeIntroText":"text9",
+			"IntroHeader":"header9",
+			"IntroText":"text9",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -157,15 +157,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"10",
-			"colourSchemeIntroHeader":"header10",
-			"colourSchemeIntroText":"text10",
+			"IntroHeader":"header10",
+			"IntroText":"text10",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -175,9 +175,9 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		}
 	]

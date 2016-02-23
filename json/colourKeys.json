@@ -2,8 +2,8 @@
 	"questions":[
 		{
 			"question":"1",
-			"colourKeysIntroHeader":"Tropical Fruits",
-			"colourKeysIntroText":"Colour Keys text.",
+			"IntroHeader":"Tropical Fruits",
+			"PicUrl":"images/colourKeyImg/test.jpg",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -12,19 +12,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"2",
-			"colourKeysIntroHeader":"header2",
-			"colourKeysIntroText":"text2",
+			"IntroHeader":"header2",
+			"PicUrl":"images/colourKeyImg/test.jpg",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -33,19 +29,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"3",
-			"colourKeysIntroHeader":"header3",
-			"colourKeysIntroText":"text3",
+			"IntroHeader":"header3",
+			"PicUrl":"images/colourKeyImg/test.jpg",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -54,19 +46,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"4",
-			"colourKeysIntroHeader":"header4",
-			"colourKeysIntroText":"text4",
+			"IntroHeader":"header4",
+			"PicUrl":"images/colourKeyImg/test.jpg",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -75,19 +63,15 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		},
 		{
 			"question":"5",
-			"colourKeysIntroHeader":"header5",
-			"colourKeysIntroText":"text5",
+			"IntroHeader":"header5",
+			"PicUrl":"images/colourKeyImg/test.jpg",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -96,13 +80,9 @@
 				"#000000"
 			],
 			"answers":[
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000",
-				"#000000"
+				"#FF0000",
+				"#008800",
+				"#0000FF"
 			]
 		}
 	]

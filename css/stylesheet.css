@@ -1,11 +1,6 @@
 ﻿@charset "utf-8";
 
-.colourSchemeIntro {
-    /*margin-top: 12px;
-    margin-bottom: 10px;*/
-    padding: 60px 0px 0px 100px;/*top right bottom left*/
-}
-.colourSchemeIntroHeader{
+.IntroHeader{
     display: block;
     color: #1d3c83;
     font-size: 1.4em;
@@ -14,18 +9,13 @@
     font-weight: bolder;
     margin-bottom: 10px;
 }
-.colourSchemeIntroText {
+.IntroText {
     font-size: 0.85em;
     display: block;
     /*margin-top: 5px;
     line-height: 15px;*/
 }
 
-#droppableWrap {
-    /*clear:both;*/
-    padding: 50px 0px 0px 100px;/*top right bottom left*/
-    float: left;
-}
 .droppable {
     width: 40px;
     height: 40px;
@@ -33,28 +23,91 @@
     margin: 5px;
 }
 
-#swatchesWrap {
+.draggable {
+    width: 20px;
+    height: 20px;
+    float: left;
+    /*margin: 5px;*/
+}
+
+.AnswerHeader {
+    font-weight: bolder;
+    float: left;
+}
+.answerBox {
+    width: 20px;
+    height: 20px;
+    /*background-color: black;*/
+    float: left;
+    margin: 0px 5px 0px 5px;/*top right bottom left*/
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#wrapup {
+    
+}
+
+
+
+/*colourScheme css*/
+.colourSchemeIntro {
+    padding: 60px 0px 0px 100px;/*top right bottom left*/
+}
+
+#colourSchemedroppableWrap {
+    /*clear:both;*/
+    padding: 50px 0px 0px 100px;/*top right bottom left*/
+    float: left;
+}
+
+#colourSchemeswatchesWrap {
     padding: 50px 300px 0px 0px;/*top right bottom left*/
     float: right;
     /*width: 368px;
     height: 120px;*/
 }
-.draggable {
-    width: 40px;
-    height: 40px;
-    float: left;
-    /*margin: 5px;*/
-}
 
-#buttonWrap {
+#colourSchemebuttonWrap {
     display: block;
     padding: 120px 0px 0px 200px;/*top right bottom left*/
 }
 
-.colourSchemeButtonWrap {
-    width: 100px;
-    height: 32px;
-    /*padding: 10px 20px;*/
-    margin: 0 auto;
-    margin-top: 30px;
+#colourSchemeAnswerWrap {
+    float: left;
+    padding: 50px 0px 0px 100px;/*top right bottom left*/
 }
+/*End of colourScheme css*/
+
+
+
+/*colourKeys css*/
+.colourKeysIntro {
+    padding: 60px 0px 0px 100px;/*top right bottom left*/
+}
+
+#colourKeysImgWrap {
+    display: inline-block;
+    padding: 0px 0px 0px 60px;/*top right bottom left*/
+    width: 40%;
+}
+
+#colorKeysdroppableWrap {
+    padding: 20px 0px 0px 60px;/*top right bottom left*/
+    float: left;
+}
+
+#colorKeysswatchesWrap {
+    display: inline-block;
+    padding: 50px 300px 0px 0px;/*top right bottom left*/
+    float: right;
+}
+
+#colorKeysbuttonWrap {
+    display: block;
+    padding: 120px 0px 0px 200px;/*top right bottom left*/
+}
+/*End of colourKeys css*/
