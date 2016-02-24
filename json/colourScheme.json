@@ -146,8 +146,8 @@
 		},
 		{
 			"question":"9",
-			"IntroHeader":"header9",
-			"IntroText":"text9",
+			"IntroHeader":"Analogous",
+			"IntroText":"Colours that are closely related in hue which are adjacent to each other on the colour wheel.",
 			"swatches":[
 				"#FF0000",
 				"#0000FF",
@@ -159,7 +159,8 @@
 			"answers":[
 				"#FF0000",
 				"#008800",
-				"#0000FF"
+				"#0000FF",
+				"#000000"
 			]
 		},
 		{

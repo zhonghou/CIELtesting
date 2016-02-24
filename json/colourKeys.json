@@ -4,13 +4,6 @@
 			"question":"1",
 			"IntroHeader":"Tropical Fruits",
 			"PicUrl":"images/colourKeyImg/test.jpg",
-			"swatches":[
-				"#FF0000",
-				"#0000FF",
-				"#E2BE22",
-				"#008800",
-				"#000000"
-			],
 			"answers":[
 				"#FF0000",
 				"#008800",
@@ -21,13 +14,6 @@
 			"question":"2",
 			"IntroHeader":"header2",
 			"PicUrl":"images/colourKeyImg/test.jpg",
-			"swatches":[
-				"#FF0000",
-				"#0000FF",
-				"#E2BE22",
-				"#008800",
-				"#000000"
-			],
 			"answers":[
 				"#FF0000",
 				"#008800",
@@ -38,13 +24,6 @@
 			"question":"3",
 			"IntroHeader":"header3",
 			"PicUrl":"images/colourKeyImg/test.jpg",
-			"swatches":[
-				"#FF0000",
-				"#0000FF",
-				"#E2BE22",
-				"#008800",
-				"#000000"
-			],
 			"answers":[
 				"#FF0000",
 				"#008800",
@@ -55,13 +34,6 @@
 			"question":"4",
 			"IntroHeader":"header4",
 			"PicUrl":"images/colourKeyImg/test.jpg",
-			"swatches":[
-				"#FF0000",
-				"#0000FF",
-				"#E2BE22",
-				"#008800",
-				"#000000"
-			],
 			"answers":[
 				"#FF0000",
 				"#008800",
@@ -72,19 +44,37 @@
 			"question":"5",
 			"IntroHeader":"header5",
 			"PicUrl":"images/colourKeyImg/test.jpg",
-			"swatches":[
-				"#FF0000",
-				"#0000FF",
-				"#E2BE22",
-				"#008800",
-				"#000000"
-			],
 			"answers":[
 				"#FF0000",
 				"#008800",
 				"#0000FF"
 			]
 		}
+	],
+	"swatches":[
+		"#FF0000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#000000",
+		"#FF0000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#000000",
+		"#FF0000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#000000",
+		"#FF0000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#000000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#FF0000"
 	]
-	
 }

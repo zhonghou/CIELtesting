@@ -7,7 +7,7 @@ $(function () {
     $.getJSON("json/colourScheme.json", function (dataList) {
         //random question number
         questionNum = Math.floor((Math.random() * dataList.questions.length) + 0);
-        
+
         $(".Counter").append(dataList.questions[questionNum].question + " / " + dataList.questions.length);
         $(".IntroHeader").append(dataList.questions[questionNum].IntroHeader);
         $(".IntroText").append(dataList.questions[questionNum].IntroText);
@@ -51,12 +51,29 @@ $(function () {
             if ($("#button").hasClass('disabled')) {
             }
             else {
-                //alert("Handler for .click() called.")
-                $(".AnswerHeader").append("Answer");
-                for (var t = 0; t < dataList.questions[questionNum].answers.length; t++) {
-                    $("#colourSchemeAnswerWrap").append("<div id=\"answerbox" + t + "\" class=\"answerBox\"></div>");
-                    $("#answerbox" + t).css("background-color", dataList.questions[questionNum].answers[t]);
+                var correct = 0;
+                for (var r = 0; r < dataList.questions[questionNum].answers.length; r++) {
+                    for (var e = 0; e < dataList.questions[questionNum].answers.length; e++) {
+                        var dummy = $('<div/>');
+                        $(dummy).css("background-color", dataList.questions[questionNum].answers[e]);
+                        var tempbgcolor = $(dummy).css("background-color");
+
+                        if ($("#answer" + r).css("background-color") == tempbgcolor) {
+                            correct += 1;
+                        };
+                    };
                 };
+                
+                if (correct == dataList.questions[questionNum].answers.length) {
+                    $(".AnswerHeader").append("Answer");
+                    for (var t = 0; t < dataList.questions[questionNum].answers.length; t++) {
+                        $("#colourSchemeAnswerWrap").append("<div id=\"answerbox" + t + "\" class=\"answerBox\"></div>");
+                        $("#answerbox" + t).css("background-color", dataList.questions[questionNum].answers[t]);
+                    };
+                }
+                else {
+                    alert("Try Again.")
+                }
             }
         });
 
@@ -66,6 +83,7 @@ $(function () {
             $("#swatches" + i).addClass('ui-widget-content');
             $("#swatches" + i).addClass('ui-draggable');
             $("#swatches" + i).addClass('ui-draggable-handle');
+            $("#swatches" + i).addClass('colourSchemeswatches');
             $("#swatches" + i).css("background-color", dataList.questions[questionNum].swatches[i]);
 
             $("#swatches" + i).draggable({

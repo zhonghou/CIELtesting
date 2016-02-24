@@ -24,10 +24,10 @@
 }
 
 .draggable {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     float: left;
-    /*margin: 5px;*/
+    overflow: hidden;
 }
 
 .AnswerHeader {
@@ -35,8 +35,8 @@
     float: left;
 }
 .answerBox {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     /*background-color: black;*/
     float: left;
     margin: 0px 5px 0px 5px;/*top right bottom left*/
@@ -47,38 +47,56 @@
     cursor: not-allowed;
 }
 
-#wrapup {
-    
+#container {
+    height: 100%;
+    padding: 20px 20px 20px 20px;/*top right bottom left*/
+    background-color: #D3D3D3;/*light grey*/
 }
 
 
 
 /*colourScheme css*/
 .colourSchemeIntro {
-    padding: 60px 0px 0px 100px;/*top right bottom left*/
+    padding: 40px 0px 0px 40px;/*top right bottom left*/
+}
+
+#colourSchemeContainerA {
+    height: 60%;
+    margin: 0px 0px 20px 0px;/*top right bottom left*/
+    background-color: #FFFFFF;
+}
+#colourSchemeContainerB {
+    height: 20%;
+    background-color: #FFFFFF;
 }
 
 #colourSchemedroppableWrap {
-    /*clear:both;*/
-    padding: 50px 0px 0px 100px;/*top right bottom left*/
-    float: left;
+    margin: auto;
+    width: 60%;
+    padding: 10px 10px 10px 10px;/*top right bottom left*/
+    /*float: left;*/
 }
 
 #colourSchemeswatchesWrap {
-    padding: 50px 300px 0px 0px;/*top right bottom left*/
-    float: right;
-    /*width: 368px;
-    height: 120px;*/
+    margin: auto;
+    width: 60%;
+    padding: 40px 10px 10px 10px;/*top right bottom left*/
+}
+
+.colourSchemeswatches {
+    margin: 0px 5px 0px 5px;/*top right bottom left*/
 }
 
 #colourSchemebuttonWrap {
     display: block;
-    padding: 120px 0px 0px 200px;/*top right bottom left*/
+    padding: 20px 0px 0px 300px;/*top right bottom left*/
 }
 
 #colourSchemeAnswerWrap {
+    margin: auto;
+    width: 60%;
+    padding: 10px 10px 10px 100px;/*top right bottom left*/
     float: left;
-    padding: 50px 0px 0px 100px;/*top right bottom left*/
 }
 /*End of colourScheme css*/
 
@@ -86,28 +104,45 @@
 
 /*colourKeys css*/
 .colourKeysIntro {
-    padding: 60px 0px 0px 100px;/*top right bottom left*/
+    display: inline-block;
+    width: 60%;
+    height: 70%;
+    padding: 40px 0px 0px 40px;/*top right bottom left*/
+}
+
+#colourKeysContainerA {
+    height: 80%;
+    margin: 0px 0px 20px 0px;/*top right bottom left*/
+    background-color: #FFFFFF;
 }
 
 #colourKeysImgWrap {
-    display: inline-block;
-    padding: 0px 0px 0px 60px;/*top right bottom left*/
-    width: 40%;
+    width: 80%;
+    height: 80%;
 }
 
-#colorKeysdroppableWrap {
-    padding: 20px 0px 0px 60px;/*top right bottom left*/
+.colorKeysdroppableWrapDefault {
+    padding: 0px 0px 0px 40px;/*top right bottom left*/
     float: left;
+}
+.colourKeysAnswerChangePosition {
+    float: right;
+    padding: 120px 20px 0px 0px;/*top right bottom left*/
+}
+.colourKeysRightAnswerPosition {
+    float: right;
+    padding: 10px 20px 0px 0px;/*top right bottom left*/
 }
 
 #colorKeysswatchesWrap {
-    display: inline-block;
-    padding: 50px 300px 0px 0px;/*top right bottom left*/
+    width: 20%;
+    height: 70%;
+    padding: 100px 0px 0px 0px;/*top right bottom left*/
     float: right;
 }
 
 #colorKeysbuttonWrap {
     display: block;
-    padding: 120px 0px 0px 200px;/*top right bottom left*/
+    padding: 20px 0px 0px 400px;/*top right bottom left*/
 }
 /*End of colourKeys css*/
