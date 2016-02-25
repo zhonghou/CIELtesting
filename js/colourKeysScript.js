@@ -4,7 +4,13 @@ $(function () {
     //to store question number
     var questionNum;
 
-    $.getJSON("json/colourKeys.json", function (dataList) {
+    // get the JSON file which is the same name as the HTML file
+    var path = window.location.pathname;
+    var filename = path.split("/").pop().split(".");
+
+    var jsonFile = "data/" + filename[0] + ".json";
+
+    $.getJSON(jsonFile, function (dataList) {
         //random question number
         questionNum = Math.floor((Math.random() * dataList.questions.length) + 0);
 
@@ -69,7 +75,7 @@ $(function () {
                     $("#colorKeysdroppableWrap").removeClass('colorKeysdroppableWrapDefault');
                     $("#colorKeysdroppableWrap").addClass('colourKeysAnswerChangePosition');
 
-                    $("#colourKeysContainerA").append("<div id=\"colourKeysAnswerWrap\" class=\"colourKeysRightAnswerPosition\"></div>");
+                    $("#colorKeysdroppableWrap").append("<div id=\"colourKeysAnswerWrap\" class=\"colourKeysRightAnswerPosition\"></div>");
                     $("#colourKeysAnswerWrap").append("<span class=\"AnswerHeader\">Answer</span>");
                     for (var t = 0; t < dataList.questions[questionNum].answers.length; t++) {
                         $("#colourKeysAnswerWrap").append("<div id=\"answerbox" + t + "\" class=\"answerBox\"></div>");

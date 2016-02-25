@@ -1,0 +1,170 @@
+{
+	"questions":[
+		{
+			"question":"1",
+			"IntroHeader":"Morning Glow",
+			"IntroText":"Text1",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"Kaleidoscopic, Psychedelic, Tapestries, Pattern, Life, Fashion, Nostalgia, Celebration, Cityscape, Face",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"2",
+			"IntroHeader":"header2",
+			"IntroText":"Text2",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"bottom 2",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"3",
+			"IntroHeader":"Dodecahedron Collision",
+			"IntroText":"by Fred Bulter",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"Little Girl, Multi-Colour, Polka Dot, Pop, Fun, Accessory, Decorative, Glistening, Shining, Radiant, Rainbow And Beams.",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"4",
+			"IntroHeader":"header4",
+			"IntroText":"Text4",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"bottom 4",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"5",
+			"IntroHeader":"header5",
+			"IntroText":"Text5",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"bottom 5",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"6",
+			"IntroHeader":"header6",
+			"IntroText":"Text6",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"bottom 6",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"7",
+			"IntroHeader":"header7",
+			"IntroText":"Text7",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"bottom 7",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"8",
+			"IntroHeader":"header8",
+			"IntroText":"Text8",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"bottom 8",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"9",
+			"IntroHeader":"header9",
+			"IntroText":"Text9",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"bottom 9",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		},
+		{
+			"question":"10",
+			"IntroHeader":"header10",
+			"IntroText":"Text10",
+			"PicUrl":"images/colourKeyImg/test.jpg",
+			"bottomTextHeader":"DESIGN INSPIRATIONS",
+			"bottomText":"bottom 10",
+			"answers":[
+				"#FF0000",
+				"#0000FF",
+				"#E2BE22",
+				"#008800"
+			]
+		}
+	],
+	"swatches":[
+		"#FF0000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#00FF00",
+		"#000000",
+		"#FF0000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#00FF00",
+		"#000000",
+		"#FF0000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#00FF00",
+		"#000000",
+		"#FF0000",
+		"#0000FF",
+		"#E2BE22",
+		"#008800",
+		"#00FF00",
+		"#000000"
+	]
+}

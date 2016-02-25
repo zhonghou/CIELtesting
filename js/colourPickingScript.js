@@ -17,9 +17,12 @@ $(function () {
         $(".Counter").append(dataList.questions[questionNum].question + " / " + dataList.questions.length);
         $(".IntroHeader").append(dataList.questions[questionNum].IntroHeader);
         $(".IntroText").append(dataList.questions[questionNum].IntroText);
-
+        $("#colourPickingImgWrap").append("<img src =\"" + dataList.questions[questionNum].PicUrl + "\" width='100%'  height ='100%'></img>");
+        $(".BottomTextHeader").append(dataList.questions[questionNum].bottomTextHeader + ":");
+        $(".BottonText").append(dataList.questions[questionNum].bottomText);
+        //width='50%'  height ='50%'
         for (var u = 0; u < dataList.questions[questionNum].answers.length; u++) {
-            $("#colourSchemedroppableWrap").append("<div id=\"answer" + u + "\" class=\"droppable ui-widget-header ui-droppable\" ></div>");
+            $("#colourPickingdroppableWrap").append("<div id=\"answer" + u + "\" class=\"droppable ui-widget-header ui-droppable\" ></div>");
             $("#answer" + u).css("background-color", "#FFFFFF");
             //$("#answer" + u).addClass('droppable ui-widget-header');
 
@@ -69,11 +72,17 @@ $(function () {
                         };
                     };
                 };
-                
+
                 if (correct == dataList.questions[questionNum].answers.length) {
-                    $(".AnswerHeader").append("Answer");
+                    $("#colourPickingswatchesWrap").remove();
+                    $("img").remove();
+                    //$("#colorKeysdroppableWrap").removeClass('colorKeysdroppableWrapDefault');
+                    //$("#colorKeysdroppableWrap").addClass('colourKeysAnswerChangePosition');
+
+                    $("#colourPickingdroppableWrap").append("<div id=\"colourPickingAnswerWrap\" class=\"colourPickingRightAnswerPosition\"></div>");
+                    $("#colourPickingAnswerWrap").append("<div class=\"AnswerHeader\">Answer</div>");
                     for (var t = 0; t < dataList.questions[questionNum].answers.length; t++) {
-                        $("#colourSchemeAnswerWrap").append("<div id=\"answerbox" + t + "\" class=\"answerBox\"></div>");
+                        $("#colourPickingAnswerWrap").append("<div id=\"answerbox" + t + "\" class=\"answerBox\"></div>");
                         $("#answerbox" + t).css("background-color", dataList.questions[questionNum].answers[t]);
                     };
                 }
@@ -83,14 +92,13 @@ $(function () {
             }
         });
 
-        for (var i = 0; i < dataList.questions[questionNum].swatches.length; i++) {
-            $("#colourSchemeswatchesWrap").append("<div id=\"swatches" + i + "\"></div>");
+        for (var i = 0; i < dataList.swatches.length; i++) {
+            $("#colourPickingswatchesWrap").append("<div id=\"swatches" + i + "\"></div>");
             $("#swatches" + i).addClass('draggable');
             $("#swatches" + i).addClass('ui-widget-content');
             $("#swatches" + i).addClass('ui-draggable');
             $("#swatches" + i).addClass('ui-draggable-handle');
-            $("#swatches" + i).addClass('colourSchemeswatches');
-            $("#swatches" + i).css("background-color", dataList.questions[questionNum].swatches[i]);
+            $("#swatches" + i).css("background-color", dataList.swatches[i]);
 
             $("#swatches" + i).draggable({
                 opacity: 0.7, helper: "clone",
@@ -99,5 +107,7 @@ $(function () {
                 }
             });
         }
+        $(".draggable:nth-child(4n+1)").css("margin-left", "5px");
+        $(".droppable:nth-child(4n+1)").css("margin-left", "5px");
     })
 });

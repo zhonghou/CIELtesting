@@ -7,13 +7,20 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: bolder;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 .IntroText {
     font-size: 0.85em;
     display: block;
     /*margin-top: 5px;
     line-height: 15px;*/
+}
+
+.BottomTextHeader{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
 }
 
 .droppable {
@@ -31,6 +38,7 @@
 }
 
 .AnswerHeader {
+    display: inline-block;
     font-weight: bolder;
     float: left;
 }
@@ -48,9 +56,16 @@
 }
 
 #container {
-    height: 100%;
+    height: 400px;
+    width: 700px;
+    margin: 100px 100px 100px 100px;/*top right bottom left*/
     padding: 20px 20px 20px 20px;/*top right bottom left*/
-    background-color: #D3D3D3;/*light grey*/
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#bottombuttonWrap {
+    display: block;
+    padding: 0px 0px 0px 300px;/*top right bottom left*/
 }
 
 
@@ -61,13 +76,13 @@
 }
 
 #colourSchemeContainerA {
-    height: 60%;
+    height: 70%;
     margin: 0px 0px 20px 0px;/*top right bottom left*/
-    background-color: #FFFFFF;
+    background-color: rgba(135, 197, 185, 0.4);
 }
 #colourSchemeContainerB {
     height: 20%;
-    background-color: #FFFFFF;
+    background-color: rgba(135, 197, 185, 0.4);
 }
 
 #colourSchemedroppableWrap {
@@ -80,16 +95,11 @@
 #colourSchemeswatchesWrap {
     margin: auto;
     width: 60%;
-    padding: 40px 10px 10px 10px;/*top right bottom left*/
+    padding: 20px 10px 10px 10px;/*top right bottom left*/
 }
 
 .colourSchemeswatches {
     margin: 0px 5px 0px 5px;/*top right bottom left*/
-}
-
-#colourSchemebuttonWrap {
-    display: block;
-    padding: 20px 0px 0px 300px;/*top right bottom left*/
 }
 
 #colourSchemeAnswerWrap {
@@ -105,15 +115,15 @@
 /*colourKeys css*/
 .colourKeysIntro {
     display: inline-block;
-    width: 60%;
-    height: 70%;
-    padding: 40px 0px 0px 40px;/*top right bottom left*/
+    width: 50%;
+    height: 80%;
+    padding: 5px 0px 0px 10px;/*top right bottom left*/
 }
 
 #colourKeysContainerA {
-    height: 80%;
+    height: 90%;
     margin: 0px 0px 20px 0px;/*top right bottom left*/
-    background-color: #FFFFFF;
+    background-color: rgba(135, 197, 185, 0.4);
 }
 
 #colourKeysImgWrap {
@@ -122,27 +132,65 @@
 }
 
 .colorKeysdroppableWrapDefault {
-    padding: 0px 0px 0px 40px;/*top right bottom left*/
+    padding: 0px 0px 0px 10px;/*top right bottom left*/
     float: left;
 }
 .colourKeysAnswerChangePosition {
+    width: 40%;
     float: right;
-    padding: 120px 20px 0px 0px;/*top right bottom left*/
+    /*position: relative;*/
+    padding: 50px 10px 0px 0px;/*top right bottom left*/
 }
 .colourKeysRightAnswerPosition {
-    float: right;
-    padding: 10px 20px 0px 0px;/*top right bottom left*/
+    float: left;
+    padding: 5px 0px 0px 0px;/*top right bottom left*/
 }
 
 #colorKeysswatchesWrap {
-    width: 20%;
+    width: 30%;
     height: 70%;
-    padding: 100px 0px 0px 0px;/*top right bottom left*/
+    padding: 20px 0px 0px 0px;/*top right bottom left*/
+    float: right;
+}
+/*End of colourKeys css*/
+
+
+
+/*colourPicking css*/
+#colourPickingContainerA {
+    height: 90%;
+    margin: 0px 0px 20px 0px;/*top right bottom left*/
+    background-color: rgba(135, 197, 185, 0.4);
+}
+
+#colourPickingImgWrap {
+    margin: 20px 0px 0px 5px;/*top right bottom left*/
+    width: 20%;
+    display: inline;
+    float: left;
+}
+
+#colourPickingCenterContainer{
+    margin: 20px 0px 0px 15px;/*top right bottom left*/
+    width: 48%;
+    display: inline;
+    float: left;
+}
+
+.colourPickingdroppableWrapDefault{
+    display: inline-block;
+}
+
+#colourPickingswatchesWrap{
+    margin: 20px 0px 0px 0px;/*top right bottom left*/
+    width: 26%;
+    display: inline;
     float: right;
 }
 
-#colorKeysbuttonWrap {
-    display: block;
-    padding: 20px 0px 0px 400px;/*top right bottom left*/
+#colourPickingBottomTextWrap{
+    margin: 40px 0px 0px 0px;/*top right bottom left*/
+    /*float: left;*/
+    display: inline-block;
 }
-/*End of colourKeys css*/
+/*End of colourPicking css*/
